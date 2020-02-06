@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff5838f3-0087-4046-9551-e28c6c327890" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chioma Igbokwe" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XKPdEKNVHpChtauM7a0Kf6WXBT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/league/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/team" />
+      <recent name="$PROJECT_DIR$/media/profile" />
+      <recent name="$PROJECT_DIR$/media/player" />
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff5838f3-0087-4046-9551-e28c6c327890" name="Default Changelist" comment="" />
+      <created>1580791898920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580791898920</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit for Premier League API">
+      <created>1580978536042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580978536042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit for Premier League API">
+      <created>1580978819407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580978819407</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Commit for Premier League API">
+      <created>1580978876337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580978876337</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test for Premier League API">
+      <created>1580979028264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580979028264</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Initial Commit for Premier League API" />
+    <MESSAGE value="New Commit for Premier League API" />
+    <MESSAGE value="Test for Premier League API" />
+    <MESSAGE value="Revert &quot;Initial Commit for Premier League API&quot;&#10;&#10;This reverts commit a7972195" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial Commit for Premier League API&quot;&#10;&#10;This reverts commit a7972195" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="308" y="27" width="800" height="636" key="#Changelists" timestamp="1581018774076">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="308" y="27" width="800" height="636" key="#Changelists/67.27.1293.636@67.27.1293.636" timestamp="1581018774076" />
+    <state x="140" y="27" width="800" height="636" key="#Notifications" timestamp="1580978850309">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="140" y="27" width="800" height="636" key="#Notifications/67.27.1293.636@67.27.1293.636" timestamp="1580978850309" />
+    <state x="171" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581018759887">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="171" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1293.636@67.27.1293.636" timestamp="1581018759887" />
+    <state x="105" y="27" width="525" height="453" key="CommitChangelistDialog2" timestamp="1581025575192">
+      <screen x="67" y="27" width="573" height="453" />
+    </state>
+    <state x="152" y="27" width="777" height="636" key="CommitChangelistDialog2/67.27.1293.636@67.27.1293.636" timestamp="1581018290536" />
+    <state x="105" y="27" width="525" height="453" key="CommitChangelistDialog2/67.27.573.453@67.27.573.453" timestamp="1581025575192" />
+    <state x="167" y="125" width="1093" height="438" key="DiffContextDialog" timestamp="1581019375312">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="167" y="125" width="1093" height="438" key="DiffContextDialog/67.27.1293.636@67.27.1293.636" timestamp="1581019375312" />
+    <state x="496" y="103" width="447" height="484" key="FileChooserDialogImpl" timestamp="1581020707699">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="496" y="103" width="447" height="484" key="FileChooserDialogImpl/67.27.1293.636@67.27.1293.636" timestamp="1581020707699" />
+    <state width="914" height="140" key="GridCell.Tab.0.bottom" timestamp="1580928453784">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state width="914" height="140" key="GridCell.Tab.0.bottom/67.27.1293.636@67.27.1293.636" timestamp="1580928453784" />
+    <state width="914" height="140" key="GridCell.Tab.0.center" timestamp="1580928453779">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state width="914" height="140" key="GridCell.Tab.0.center/67.27.1293.636@67.27.1293.636" timestamp="1580928453779" />
+    <state width="914" height="140" key="GridCell.Tab.0.left" timestamp="1580928453775">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state width="914" height="140" key="GridCell.Tab.0.left/67.27.1293.636@67.27.1293.636" timestamp="1580928453775" />
+    <state width="914" height="140" key="GridCell.Tab.0.right" timestamp="1580928453780">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state width="914" height="140" key="GridCell.Tab.0.right/67.27.1293.636@67.27.1293.636" timestamp="1580928453780" />
+    <state x="418" y="62" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1581018251090">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="418" y="62" width="580" height="564" key="MultipleFileMergeDialog/67.27.1293.636@67.27.1293.636" timestamp="1581018251090" />
+    <state x="754" y="27" width="547" height="574" key="RollbackChangesDialog" timestamp="1581019408004">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="754" y="27" width="547" height="574" key="RollbackChangesDialog/67.27.1293.636@67.27.1293.636" timestamp="1581019408004" />
+    <state x="557" y="262" width="303" height="164" key="VCS.ChangelistChooser" timestamp="1581018148818">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="557" y="262" width="303" height="164" key="VCS.ChangelistChooser/67.27.1293.636@67.27.1293.636" timestamp="1581018148818" />
+    <state x="140" y="81" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580979041333">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="140" y="81" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1293.636@67.27.1293.636" timestamp="1580979041333" />
+    <state x="209" y="37" width="662" height="615" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580927894606">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="209" y="37" width="662" height="615" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1293.636@67.27.1293.636" timestamp="1580927894606" />
+    <state x="281" y="82" width="509" height="526" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1580976238018">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="281" y="82" width="509" height="526" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/67.27.1293.636@67.27.1293.636" timestamp="1580976238018" />
+    <state x="313" y="265" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580978998973">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="313" y="265" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1293.636@67.27.1293.636" timestamp="1580978998973" />
+    <state x="656" y="27" width="704" height="807" key="find.popup" timestamp="1580928907761">
+      <screen x="67" y="27" width="1293" height="636" />
+    </state>
+    <state x="656" y="27" width="704" height="807" key="find.popup/67.27.1293.636@67.27.1293.636" timestamp="1580928907761" />
+  </component>
+</project>
