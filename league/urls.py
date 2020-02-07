@@ -3,7 +3,7 @@ from rest_framework.routers import DefaultRouter
 from rest_framework.routers import DefaultRouter
 
 from .api import PointsViewSet, PlayerViewSet, FixtureViewSet, MatchViewSet, TeamViewSet, FixViewSet, \
-    TeamPlayersViewSet, TeamAPIView, FixturesAPIView, ListTeamView, CompletedMatchView, PendingMatchView
+    TeamPlayersViewSet, TeamAPIView, FixturesAPIView, ListTeamView, CompletedMatchView, PendingMatchView, ListPlayerView
 
 router = DefaultRouter()
 router.register(r'match', MatchViewSet)
@@ -18,10 +18,11 @@ urlpatterns = router.urls
 urlpatterns += [
 
     #   url(r'viewteam', SelectTeamView.as_view(), cache_page(60 * 15)),
-    url('allteam/', TeamAPIView.as_view()),
-    url('allfixture/', FixturesAPIView.as_view()),
-    url('vteam/', ListTeamView.as_view()),
-    url('completed_match/', CompletedMatchView.as_view()),
-    url('pending_match/', PendingMatchView.as_view()),
+    url('allteam/', TeamAPIView.as_view(), name='allteam'),
+    url('allfixture/', FixturesAPIView.as_view(), name='allfix'),
+    url('vteam/', ListTeamView.as_view(), name='viewteam'),
+    url('completed_match/', CompletedMatchView.as_view(), name='completed'),
+    url('pending_match/', PendingMatchView.as_view(), name='pending'),
+    url('vpl/', ListPlayerView.as_view(), name='plist'),
 
 ]

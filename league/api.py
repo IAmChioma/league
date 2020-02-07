@@ -2,8 +2,12 @@ from django.db import connection
 import collections
 from django.core.cache.backends.base import DEFAULT_TIMEOUT
 from django.db import connection
+from django.contrib.auth.decorators import user_passes_test
+from django.contrib.auth.models import Group
+from django.utils.decorators import method_decorator
 from rest_framework import filters
 from rest_framework import status, views, generics, viewsets, permissions
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.throttling import UserRateThrottle
 from rest_framework.viewsets import ModelViewSet
@@ -22,6 +26,15 @@ class TeamAPIView(generics.ListCreateAPIView):
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
     throttle_classes = [UserRateThrottle]
+    permission_classes = (AllowAny,)
+
+
+# @method_decorator(user_passes_test(lambda u: Group.objects.get(name='User') in u.groups.all()),
+#                   name='dispatch')
+class ListPlayerView(generics.ListAPIView):
+    queryset = Player.objects.all()
+    serializer_class = PlayerSerializer
+    throttle_classes = [UserRateThrottle]
 
 
 class FixturesAPIView(generics.ListCreateAPIView):
@@ -30,6 +43,7 @@ class FixturesAPIView(generics.ListCreateAPIView):
     queryset = Fixtures.objects.all()
     serializer_class = FixtureSerializer
     throttle_classes = [UserRateThrottle]
+    permission_classes = (AllowAny,)
 
 
 # @method_decorator(user_passes_test(lambda u: Group.objects.get(name='Admin') in u.groups.all()),
@@ -48,6 +62,8 @@ class MatchViewSet(ModelViewSet):
     # permission_classes = (permissions.IsAuthenticated,)
 
 
+# @method_decorator(user_passes_test(lambda u: Group.objects.get(name='Admin') in u.groups.all()),
+#                   name='dispatch')
 class TeamViewSet(ModelViewSet):
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
@@ -69,6 +85,8 @@ class PointsViewSet(ModelViewSet):
     throttle_classes = [UserRateThrottle]
 
 
+# @method_decorator(user_passes_test(lambda u: Group.objects.get(name='Admin') in u.groups.all()),
+#                   name='dispatch')
 class PlayerViewSet(ModelViewSet):
     queryset = Player.objects.all()
     serializer_class = PlayerSerializer
@@ -83,16 +101,12 @@ class TeamPlayersViewSet(ModelViewSet):
     # permission_classes = (permissions.IsAuthenticated,)
 
 
+# @method_decorator(user_passes_test(lambda u: Group.objects.get(name='User') in u.groups.all()),
+#                   name='dispatch')
 class ListTeamView(generics.ListAPIView):
     queryset = Team.objects.all()
     serializer_class = TeamSerializer
     throttle_classes = [UserRateThrottle]
-    #
-    # def get(self, request):
-    #     # Note the use of `get_queryset()` instead of `self.queryset`
-    #     serializer = TeamSerializer
-    #     team = Team.objects.all()
-    #     return Response(team)
 
 
 class FixViewSet(viewsets.ModelViewSet):

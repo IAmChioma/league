@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'premier.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'premier_db',
+        'NAME': 'premier',
         'USER': 'postgres',
         'PASSWORD': 'diamond',
         'HOST': 'localhost',
@@ -94,8 +94,8 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-        'rest_framework.authentication.BasicAuthentication',
+      #  'rest_framework.authentication.SessionAuthentication',
+      #  'rest_framework.authentication.BasicAuthentication',
     ),
     'TEST_REQUEST_DEFAULT_FORMAT': 'json',
     'DEFAULT_THROTTLE_CLASSES': [

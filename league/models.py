@@ -150,6 +150,9 @@ class Fixtures(models.Model):
         #     self.slug = slugify(self.short_name)
         # return super().save(*args, **kwargs)
 
+    def get_details(self):
+        return self.status + ' created successfully.'
+
     def __str__(self):
         return "{}".format(self.status)
 
